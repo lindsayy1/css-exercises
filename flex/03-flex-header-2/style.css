@@ -46,6 +46,8 @@ a {
 
 ul {
   list-style-type: none;
+  display: flex;
+  justify-content:space-evenly;
 }
 
 .left{
@@ -56,4 +58,5 @@ ul {
 .right{
   display: flex;
   justify-content: flex-end;
+  align-items: flex-start;
 }
