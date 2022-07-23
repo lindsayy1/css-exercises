@@ -29,5 +29,15 @@ img {
 
 .bar, .chi, .pep, .saf {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  gap: 52px;
+  justify-content:center;
+  align-items: center;
+  width: 200px;
 }
+
+.text {
+  display: flex;
+  flex-wrap: wrap;
+}
+
