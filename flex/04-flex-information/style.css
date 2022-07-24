@@ -1,5 +1,8 @@
 body {
   font-family: 'Courier New', Courier, monospace;
+  display: flex;
+  flex-direction: column;
+  row-gap: 32px;
 }
 
 img {
@@ -30,8 +33,7 @@ img {
 .all {
   display: flex;
   justify-content: center;
-  
-  */
+  column-gap: 52px;
 }
 
 .text {
@@ -42,5 +44,4 @@ img {
 
 .bar, .chi, .pep, .saf {
   width: 200px;
-  gap: 32px, 52px;
 }
