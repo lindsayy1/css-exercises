@@ -27,17 +27,20 @@ img {
   background: #eee;
 }
 
-.bar, .chi, .pep, .saf {
+.all {
   display: flex;
-  flex-direction: column;
-  gap: 52px;
-  justify-content:center;
-  align-items: center;
-  width: 200px;
+  justify-content: center;
+  
+  */
 }
 
 .text {
   display: flex;
   flex-wrap: wrap;
-}
+  flex-direction: column;
+} 
 
+.bar, .chi, .pep, .saf {
+  width: 200px;
+  gap: 32px, 52px;
+}
