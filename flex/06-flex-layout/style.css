@@ -5,7 +5,6 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
-  border: 2px solid pink;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -41,7 +40,6 @@ a {
 }
 
 .header {
-  border: 2px solid blue;
   display: flex;
   justify-content: space-between;
   padding: 10px;
@@ -49,7 +47,6 @@ a {
 }
 
 .left-links {
-  border: 2px solid red;
   display: flex;
   gap: 10px;
   margin: 0;
@@ -57,7 +54,6 @@ a {
 }
 
 .right-links {
-  border: 2px solid yellow;
   display: flex;
   gap: 10px;
   margin: 0;
@@ -65,7 +61,6 @@ a {
 }
 
 .footer {
-  border: 2px solid purple;
   display: flex;
   justify-content: space-between;
   padding: 10px;
@@ -75,7 +70,6 @@ a {
 .content {
 display: flex;
 flex-direction: column;
-border: 2px solid green;
 align-content: center;
 justify-content: center;
 flex-wrap: wrap;
@@ -83,12 +77,15 @@ flex-wrap: wrap;
 
 .input {
   display: flex;
-  border: 2px solid brown;
   justify-content: center;
+  margin: 5px;
 }
 
 .buttons {
   display: flex;
-  border: 2px solid black;
   justify-content: center;
+}
+
+button {
+  margin: 5px;
 }
