@@ -40,3 +40,10 @@ a {
   border: 2px solid blue;
   display: flex;
 }
+
+.left-links {
+  border: 2px solid red;
+  display: flex;
+  gap: 10px;
+
+}
