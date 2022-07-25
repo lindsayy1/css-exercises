@@ -5,6 +5,9 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  border: 2px solid pink;
+  display: flex;
+  flex-direction: column;
 }
 
 img {
@@ -64,5 +67,17 @@ a {
   display: flex;
   justify-content: space-between;
   padding: 10px;
-  background-color: #eeeeee ;
+  background-color: #eeeeee;
+
+}
+
+.content{
+display: flex;
+flex-direction: column;
+border: 2px solid green;
+justify-content: center;
+align-content: center;
+flex-wrap: wrap;
+margin: 0;
+padding: 0;
 }
