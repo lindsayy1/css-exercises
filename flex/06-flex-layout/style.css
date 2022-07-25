@@ -58,3 +58,10 @@ a {
   margin: 0;
   padding: 0;
 }
+
+.footer {
+  border: 2px solid purple;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
