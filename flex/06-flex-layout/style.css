@@ -8,6 +8,7 @@ body {
   border: 2px solid pink;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 
 img {
@@ -44,6 +45,7 @@ a {
   display: flex;
   justify-content: space-between;
   padding: 10px;
+  
 }
 
 .left-links {
@@ -68,16 +70,25 @@ a {
   justify-content: space-between;
   padding: 10px;
   background-color: #eeeeee;
-
 }
 
-.content{
+.content {
 display: flex;
 flex-direction: column;
 border: 2px solid green;
-justify-content: center;
 align-content: center;
+justify-content: center;
 flex-wrap: wrap;
-margin: 0;
-padding: 0;
+}
+
+.input {
+  display: flex;
+  border: 2px solid brown;
+  justify-content: center;
+}
+
+.buttons {
+  display: flex;
+  border: 2px solid black;
+  justify-content: center;
 }
