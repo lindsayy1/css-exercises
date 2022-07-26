@@ -34,6 +34,9 @@ body {
   width: 300px;
   background: royalblue;
   border: 2px solid green;
+  display: flex;
+  flex-shrink: none;
+  width: 300px;
 }
 
 .card {
@@ -54,3 +57,7 @@ a{
   color: white;
   text-decoration: none;
 }
+
+/*.deck{
+  padding: 32px;
+}*/
